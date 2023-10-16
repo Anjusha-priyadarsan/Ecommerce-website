@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Crimson+Text:ital@1&family=Dosis&family=Merienda:wght@400;600&family=Roboto:wght@300&family=Silkscreen&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.drop-color{
+    color: black;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.hero-header{
+    background:url(./images/bghome.PNG);
+    background-position: center;
+    background-size: 1210px 600px;
+}
+.cardstyle{
+    width:260px;
+    height:310px;
+    margin-left: 3px;
+    border-radius: 0%;
+}
+.name{
+    margin-top: 250px;
+    padding-left: 7px;
+ }
+ .name i{
+    color: white;
+ }
+ .cardstyle h7{
+    color:white;
+    
+ }
+ .cardstyle p{
+    color: white;
+ }
+
+.form__group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.form__field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  font-size: 1.3rem;
+  color:black;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+
+  &::placeholder {
+    color: transparent;
+  }
+
+  &:placeholder-shown ~ .form__label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+  }
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: gray;
+}
+
+.form__field:focus {
+  ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: primary;
+    font-weight:700;    
+  }
+  padding-bottom: 6px;  
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, rgb(35, 35, 59),grey);
+  border-image-slice: 1;
+}
+
+.footer .btn.btn-social{ 
+    
+    width: 35px;
+    height: 30px; 
+    
+    color:white;
+    padding: 1px;
+background-color: black;
+    
+    border:  solid black;
+    /* border-radius: 35; */
+    transition: 0.3s;
+    
+    }
+    .img{
+        width:270px;
+        height:350px;
+    }
+
+    .cloth-cardstyle{
+        width:250px;
+        height:400px;
+        margin-left: 15px;
+        /* background-size: 280px 350px; */
+        border: 5px solid white;
+       
+     }
+     .name{
+        margin-top: 290px;
+        padding-left: 7px;
+     }
+     .name i{
+        color: rgb(236, 236, 10);
+     }
+     .cloth-cardstyle h7{
+        color:black;
+        font-weight: bold;
+     }
+     .cloth-cardstyle p{
+        color:black;
+     }
+     .dropdown-item:hover{
+     background-color: white;
+     }
+    

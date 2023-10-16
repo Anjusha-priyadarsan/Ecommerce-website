@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <!-- font awsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--flaticon -->
+  <link href="/your-path-to-uicons/css/uicons-[your-style].css" rel="stylesheet">
+  <!-- external style sheet -->
+  <link rel="stylesheet" href="style.css">
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Courgette&family=Crimson+Text:ital@1&family=Dancing+Script:wght@700&family=Dosis&family=Merienda:wght@400;600&family=Poppins:wght@500;600&family=Roboto:wght@300&family=Silkscreen&display=swap"
+    rel="stylesheet">
+</head>
+</head>
+
+<body>
+
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg   fixed-top bg-light ">
+    <div class="container">
+      <!-- logo -->
+      <a class="navbar-brand" href="index.html"><img src="./images/logo.PNG" alt="Logo"
+          style="height: 40px;width: 130px;"></a>
+      <!-- toggle button -->
+      <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- sidebar -->
+      <div class=" sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel">
+        <!-- sidebar-header -->
+        <div class="offcanvas-header text-primary border-bottom border-primary">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./images/logo.PNG" alt="Logo"
+              style="height: 40px;width: 130px;"></h5>
+          <button type="button" class="btn-close btn-close-primary shadow-none" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <!-- sidebar body -->
+        <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0 style">
+          <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3 fs-7  ">
+            <li class="nav-item dropdown mx-2">
+              <a class="nav-link drop-color" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                NEW IN
+              </a>
+              <ul class="dropdown-menu  ">
+                <li><a class="dropdown-item" href="#">VIEW ALL</a></li>
+                <li><a class="dropdown-item" href="#">CLOTHING</a></li>
+
+                <li><a class="dropdown-item" href="#">ACCESSORIES</a></li>
+                <li><a class="dropdown-item" href="#">JWELERY</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown mx-2">
+              <a class="nav-link drop-color" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                CLOTHING
+              </a>
+              <ul class="dropdown-menu ">
+                <li><a class="dropdown-item" href="cloth.html">VIEW ALL</a></li>
+                <li><a class="dropdown-item" href="#">NEW IN</a></li>
+
+                <li><a class="dropdown-item" href="#">BEST SELLERS</a></li>
+                <li><a class="dropdown-item" href="#">Tops</a></li>
+                <li><a class="dropdown-item" href="#">Bottoms</a></li>
+                <li><a class="dropdown-item" href="#">Outerwear</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown mx-2">
+              <a class="nav-link drop-color" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                DRESSES
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">VIEW ALL</a></li>
+                <li><a class="dropdown-item" href="#">NEW IN</a></li>
+
+                <li><a class="dropdown-item" href="#">BEST SELLERS</a></li>
+                <li><a class="dropdown-item" href="#">Slip dresses</a></li>
+                <li><a class="dropdown-item" href="#">A-line dresses</a></li>
+                <li><a class="dropdown-item" href="#">Maxi dresses</a></li>
+                <li><a class="dropdown-item" href="#">Midi dresses</a></li>
+                <li><a class="dropdown-item" href="#">Short dresses</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown mx-2">
+              <a class="nav-link drop-color" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                KNITWEAR
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">VIEW ALL</a></li>
+                <li><a class="dropdown-item" href="#">NEW IN</a></li>
+
+                <li><a class="dropdown-item" href="#">BEST SELLERS</a></li>
+                <li><a class="dropdown-item" href="#">Cardigans</a></li>
+                <li><a class="dropdown-item" href="#">Pullovers</a></li>
+                <li><a class="dropdown-item" href="#">Dresses</a></li>
+
+              </ul>
+            </li>
+            <li class="nav-item dropdown mx-2">
+              <a class="nav-link drop-color" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                DENIM
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">VIEW ALL</a></li>
+                <li><a class="dropdown-item" href="#">NEW IN</a></li>
+
+                <li><a class="dropdown-item" href="#">BEST SELLERS</a></li>
+                <li><a class="dropdown-item" href="#">Jeans</a></li>
+                <li><a class="dropdown-item" href="#">Shorts</a></li>
+                <li><a class="dropdown-item" href="#">Skirts</a></li>
+                <li><a class="dropdown-item" href="#">Jackets</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown mx-2">
+              <a class="nav-link drop-color" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                SPORTS
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">VIEW ALL</a></li>
+                <li><a class="dropdown-item" href="#">NEW IN</a></li>
+
+                <li><a class="dropdown-item" href="#">BEST SELLERS</a></li>
+                <li><a class="dropdown-item" href="#">Tops</a></li>
+                <li><a class="dropdown-item" href="#">Bottoms</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown mx-2">
+              <a class="nav-link drop-color" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                SWIMWEAR
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">VIEW ALL</a></li>
+                <li><a class="dropdown-item" href="#">NEW IN</a></li>
+
+                <li><a class="dropdown-item" href="#">BEST SELLERS</a></li>
+                <li><a class="dropdown-item" href="#">Bikini sets</a></li>
+                <li><a class="dropdown-item" href="#">Cover Ups</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown ">
+              <a class="nav-link drop-color" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                style="color: red;">
+                SPECIAL PRICES
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Special Offers</a></li>
+                <li><a class="dropdown-item" href="#">Up to 20% off</a></li>
+
+                <li><a class="dropdown-item" href="#">Up to 30% off</a></li>
+                <li><a class="dropdown-item" href="#">Up to 40% off</a></li>
+
+
+              </ul>
+            </li>
+
+          </ul>
+          </li>
+          </ul>
+
+
+          <!-- login/sign up -->
+          <div class="d-flex flex-row justify-content-center align-items-center flex-lg-row gap-3 fs-5 fw-bold">
+
+            <a href="" class="text-dark text-decoration-none ml-5"><i class="fa-solid fa-magnifying-glass"></i></i></a>
+            <a href="" class="text-dark  text-decoration-none px-3 py-1 fs-6"><i
+                class="fa-solid fa-user fa-lg"></i></i></a>
+            <a href="" class="text-dark text-decoration-none ml-5"><i class="fa-solid fa-bag-shopping"></i></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <!-- marqueee -->
+  <div class="container-xx1 py-5 marquee">
+
+    <marquee scrollamount="3" style="color: rgb(22, 86, 65);font-weight: bold;font-size: 100px;">Clothing Clothing
+      Clothing Clothing Clothing Clothing Clothing ClothingClothing Clothing Clothing ClothingClothing Clothing Clothing
+      Clothing </marquee>
+
+  </div>
+
+
+
+
+  <!-- clothinggg -->
+  <div class="container-xxl text-center" style="border: none;width: 100%;">
+
+
+    <div class="row g-2">
+
+
+      <!-- row2 -->
+
+
+      
+      <div class=" col-lg-4 col-sm-6">
+        <a href="" style="text-decoration: none;color: black;font-weight: bold;">Show Filters</a>
+
+      </div>
+      
+      <div class="col-lg-4 col-sm-6">
+
+
+
+      </div>
+      
+      <div class=" col-lg-4 col-sm-6">
+
+
+        <span style="text-decoration: none;color: black;font-weight: bold;">Sort By</span> <select name="" id="">
+          <option value="">Recomended</option>
+          <option value="">New Arrivals</option>
+
+          <option value="">Price:Low to High</option>
+          <option value="">Price:High to Low</option>
+
+        </select>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- dress collection -->
+
+  <div class="container-xxl py-5" id="serv">
+
+
+
+    <div class="container">
+      <div class="text-left">
+
+
+
+
+      </div>
+      <!-- row1 -->
+      <div class="row g-4">
+        <!-- 1 -->
+
+        <div class="col-lg-3 col-sm-6">
+          <div class=" pt-3">
+
+            <div class="p-4"> 
+              <a href=""
+              ><img src="./images/pic1.PNG" alt="" class="img"></a><br>
+              <br>
+              <div style="margin-left: 10px;">
+                <h7>Maxi Dress</h7>
+
+                <p>&#8377;1,590
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+        <!-- 2 -->
+        <div class="col-lg-3 col-sm-6">
+          <div class="service rounded pt-3">
+
+            <div class="p-4"> <img src="./images/pic2.PNG" alt="" class="img"><br>
+
+              <div style="margin-left: 10px;"><br>
+                <h7>Knit Dress</h7>
+
+                <p>&#8377;1,390
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+        <!-- 3 -->
+        <div class="col-lg-3 col-sm-6">
+          <div class=" pt-3">
+
+            <div class="p-4"> <img src="./images/pic3.PNG" alt="" class="img"><br><br>
+
+              <div style="margin-left: 10px;">
+                <h7>Midi Dress</h7>
+
+                <p>&#8377;1,490
+                </p>
+
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+        <!-- 4 -->
+        <div class="col-lg-3 col-sm-6">
+          <div class=" pt-3">
+
+            <div class="p-4"> <img src="./images/pic4.PNG" alt="" class="img">
+
+              <div style="margin-left: 10px;"><br>
+                <h7>Bodycon Dress</h7>
+
+                <p>&#8377;1,390
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+
+      <!-- row2 -->
+      <div class="row g-4">
+        <!-- 1 -->
+
+        <div class="col-lg-3 col-sm-6">
+          <div class=" pt-3">
+
+            <div class="p-4"> <img src="./images/pic5.PNG" alt="" class="img"><br>
+              <br>
+              <div style="margin-left: 10px;">
+                <h7>A-line Dress</h7>
+
+                <p>&#8377;1,590
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+        <!-- 2 -->
+        <div class="col-lg-3 col-sm-6">
+          <div class=" pt-3">
+
+            <div class="p-4"> <img src="./images/pic6.PNG" alt="" class="img"><br>
+
+              <div style="margin-left: 10px;"><br>
+                <h7>Knit Dress</h7>
+
+                <p>&#8377;1,390
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+        <!-- 3 -->
+        <div class="col-lg-3 col-sm-6">
+          <div class=" pt-3">
+
+            <div class="p-4"> <img src="./images/pic7.PNG" alt="" class="img"><br><br>
+
+              <div style="margin-left: 10px;">br
+                <h7>Shirt dress</h7>
+
+                <p>&#8377;1,490
+                </p>
+
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+        <!-- 4 -->
+        <div class="col-lg-3 col-sm-6">
+          <div class=" pt-3">
+
+            <div class="p-4"> <img src="./images/pic8.PNG" alt="" class="img">
+
+              <div style="margin-left: 10px;"><br>
+                <h7>Knit Dress</h7>
+
+                <p>&#8377;1,390
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+
+
+      <!-- row3 -->
+      <div class="row g-4">
+        <!-- 1 -->
+
+        <div class="col-lg-3 col-sm-6">
+          <div class=" pt-3">
+
+            <div class="p-4"> 
+              <a href=""><img src="./images/pic9.PNG" alt="" class="img"></a><br>
+              <br>
+              <div style="margin-left: 10px;">
+                <h7>Sweter T-shirt</h7>
+
+                <p>&#8377;1,590
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+        <!-- 2 -->
+        <div class="col-lg-3 col-sm-6">
+          <div class=" pt-3">
+
+            <div class="p-4">
+               <a href="https://in.urbanic.com/details/button-placket-blouse-111318?vid=157"><img src="./images/pic10.PNG" alt="" class="img"></a><br>
+
+              <div style="margin-left: 10px;"><br>
+                <h7>Button Placket Blouse</h7>
+
+                <p>&#8377;1,990
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+        <!-- 3 -->
+        <div class="col-lg-3 col-sm-6">
+          <div class=" pt-3">
+
+            <div class="p-4"> <img src="./images/pic11.PNG" alt="" class="img"><br><br>
+
+              <div style="margin-left: 10px;">
+                <h7>Short Dress</h7>
+
+                <p>&#8377;1,490
+                </p>
+
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+        <!-- 4 -->
+        <div class="col-lg-3 col-sm-6">
+          <div class=" pt-3">
+
+            <div class="p-4"> <img src="./images/pic12.PNG" alt="" class="img">
+
+              <div style="margin-left: 10px;"><br>
+                <h7>Knit Dress</h7>
+
+                <p>&#8377;1,390
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+
+
+      <!-- row4 -->
+      <div class="row g-4">
+        <!-- 1 -->
+
+        <div class="col-lg-3 col-sm-6">
+          <div class=" pt-3">
+
+            <div class="p-4"> <img src="./images/pic13.PNG" alt="" class="img"><br>
+              <br>
+              <div style="margin-left: 10px;">
+                <h7>Long Shrug</h7>
+
+                <p>&#8377;1,590
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+        <!-- 2 -->
+        <div class="col-lg-3 col-sm-6">
+          <div class=" pt-3">
+
+            <div class="p-4"> <img src="./images/pic14.PNG" alt="" class="img"><br>
+
+              <div style="margin-left: 10px;"><br>
+                <h7>Knit Dress</h7>
+
+                <p>&#8377;1,390
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+        <!-- 3 -->
+        <div class="col-lg-3 col-sm-6">
+          <div class=" pt-3">
+
+            <div class="p-4"> <img src="./images/pic15.PNG" alt="" class="img"><br><br>
+
+              <div style="margin-left: 10px;">
+                <h7>Co-ord Set </h7>
+
+                <p>&#8377;1,490
+                </p>
+
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+        <!-- 4 -->
+        <div class="col-lg-3 col-sm-6">
+          <div class=" pt-3">
+
+            <div class="p-4"> <img src="./images/pic16.PNG" alt="" class="img">
+
+              <div style="margin-left: 10px;"><br>
+                <h7>Knit Dress</h7>
+
+                <p>&#8377;1,390
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+
+
+      <!-- row5 -->
+      <div class="row g-4">
+        <!-- 1 -->
+
+        <div class="col-lg-3 col-sm-6">
+          <div class=" pt-3">
+
+            <div class="p-4"> <img src="./images/17.PNG" alt="" class="img"><br>
+              <br>
+              <div style="margin-left: 10px;">
+                <h7>Sort Top</h7>
+
+                <p>&#8377;1,590
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+        <!-- 2 -->
+        <div class="col-lg-3 col-sm-6">
+          <div class="pt-3">
+
+            <div class="p-4"> <img src="./images/18.PNG" alt="" class="img"><br>
+
+              <div style="margin-left: 10px;"><br>
+                <h7>Co-ord Set</h7>
+
+                <p>&#8377;1,390
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+        <!-- 3 -->
+        <div class="col-lg-3 col-sm-6">
+          <div class=" pt-3">
+
+            <div class="p-4"> <img src="./images/19.PNG" alt="" class="img"><br><br>
+
+              <div style="margin-left: 10px;">
+                <h7>Jacket</h7>
+
+                <p>&#8377;1,490
+                </p>
+
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+        <!-- 4 -->
+        <div class="col-lg-3 col-sm-6">
+          <div class=" pt-3">
+
+            <div class="p-4"> <img src="./images/20.PNG" alt="" class="img">
+
+              <div style="margin-left: 10px;"><br>
+                <h7>Knit Dress</h7>
+
+                <p>&#8377;1,390
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+
+
+      <!-- row6 -->
+      <div class="row g-4">
+        <!-- 1 -->
+
+        <div class="col-lg-3 col-sm-6">
+          <div class=" pt-3">
+
+            <div class="p-4"> <img src="./images/21.PNG" alt="" class="img"><br>
+              <br>
+              <div style="margin-left: 10px;">
+                <h7>Short Dress</h7>
+
+                <p>&#8377;1,590
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+        <!-- 2 -->
+        <div class="col-lg-3 col-sm-6">
+          <div class=" pt-3">
+
+            <div class="p-4"> <img src="./images/22.PNG" alt="" class="img"><br>
+
+              <div style="margin-left: 10px;"><br>
+                <h7>Knit Dress</h7>
+
+                <p>&#8377;1,390
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+        <!-- 3 -->
+        <div class="col-lg-3 col-sm-6">
+          <div class=" pt-3">
+
+            <div class="p-4"> <img src="./images/23.PNG" alt="" class="img"><br><br>
+
+              <div style="margin-left: 10px;">b
+                <h7>Straight Leg Jeans</h7>
+
+                <p>&#8377;1,790
+                </p>
+
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+        <!-- 4 -->
+        <div class="col-lg-3 col-sm-6">
+          <div class=" pt-3">
+
+            <div class="p-4"> <img src="./images/24.PNG" alt="" class="img">
+
+              <div style="margin-left: 10px;"><br>
+                <h7>A-line Dress</h7>
+
+                <p>&#8377;1,390
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+
+  <div class="container-xxl text-center" style="border: none;width: 100%;">
+
+
+    <div class="row g-2">
+
+
+      <!-- row2 -->
+
+
+      <!-- c1 -->
+      <div class=" col-lg-4 col-sm-6">
+
+
+      </div>
+      <!-- c2 -->
+      <div class="col-lg-4 col-sm-6">
+
+        <button style="background-color: white;">Load More</button>
+
+      </div>
+      <!-- c3 -->
+      <div class=" col-lg-4 col-sm-6">
+
+
+
+
+      </div>
+
+    </div>
+  </div><br><br>
+
+
+  <!-- marqueee -->
+  <div class="container-xx1 py-5 " style="background-color: rgb(101, 114, 117);">
+
+    <marquee scrollamount="3" style="color:wheat;font-weight: bold;font-size: 50px;">Everyone is welcome
+      to our app Everyone is welcome to our appEveryone is welcome to our app &nbump;Everyone is welcome to
+      our appEveryone is welcome to our app Everyone is welcome to our appEveryone is welcome to our
+      appEveryone is welcome to our appEveryone is welcome to our appEveryone is welcome to our
+      appEveryone is welcome to our appEveryone is welcome to our appEveryone is welcome to our app
+    </marquee>
+    <p style="color:wheat;margin-left: 30px;">DOWNLOAD THE APP</p>
+  </div>
+
+  <!-- PLANET-->
+
+
+
+
+
+  <div class="container-xxl text-center" style="border: none;width: 100%;background-color: rgb(249, 246, 187);">
+
+
+    <div class="row g-2">
+      <button><img src="./images/planet.PNG" alt="" width="100%" height="330px"></button>
+
+      <!-- row2 -->
+      <div class="row ">
+
+        <!-- c1 -->
+        <div class=" col-lg-4 col-sm-6">
+
+
+        </div>
+        <!-- c2 -->
+        <div class="col-lg-4 col-sm-6" style="background-image: url();">
+          <div style="text-align: center;">
+            <img src="./images/emplam.PNG" alt="" height="100px" width="150px">
+            <p style="color: rgb(43, 43, 61);font-size: 40px;">You are invited: Not <br> part of the list yet?</p>
+            <div class="form__group field " style="margin-left: 90px;">
+              <input type="input" class="form__field" placeholder="Enter your email" name="name" id='name' required />
+              <br>
+              <label for="name" class="form__label" style="margin-left: 20px;">Enter Your Email</label><br>
+
+            </div>
+            <input type="checkbox">&nbsp;I agree to the Privacy Policy <br><br>
+            <button style="background-color:rgb(43, 43, 61) ;color: wheat;">Subscribe Now</button><br><br>
+          </div>
+
+        </div>
+        <!-- c3 -->
+        <div class=" col-lg-4 col-sm-6">
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- footer -->
+
+
+  <div class="container-fluid   footer pt-5 mt-5" id="contact" style="color: black; background-color: white;">
+    <a href="">
+      <img src="./images/gogleplay.PNG" alt="Logo" style="height: 80px;width: 220px;margin-left:10px;">
+    </a>
+    <div class="conteiner py-5">
+
+      <div class="row g-5 p-3 text-left">
+        <div class="col-lg-3 col-md-6">
+
+          <h4 class=" mb-3 fw-bold fs-7">Welcome to Urbanic</h4>
+
+
+          <a href="" class="btn btn-link text-decoration-none text-dark">Social Responsibility</a><br>
+          <a href="" class="btn btn-link text-decoration-none text-dark">Sustainability</a><br>
+
+          <a href="" class="btn btn-link text-decoration-none text-dark">Our Factory</a>
+
+
+
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 pl-4">
+
+          <h4 class=" fw-bold">Contact Us</h4>
+
+          <a href="" class="btn btn-link text-decoration-none text-dark">support@urbanic.com</a>
+
+          <a href="" class="btn btn-link text-decoration-none text-dark">india@urbanic.com</a>
+
+          <a href="" class="btn btn-link text-decoration-none text-dark">press.india@urbanic.com</a>
+
+          <br><br>
+
+
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 ">
+          <h4 class=" mb-3 fw-bold">Help</h4>
+
+
+          <a href="" class="btn btn-link text-decoration-none text-dark">Payment Methods
+          </a><br>
+          <a href="" class="btn btn-link text-decoration-none text-dark">Shipping & Delivery</a><br>
+
+          <a href="" class="btn btn-link text-decoration-none text-dark">Return Policy
+          </a>
+
+
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 ">
+          <h4 class=" mb-3 fw-bold">Policies</h4>
+
+
+          <a href="" class="btn btn-link text-decoration-none text-dark">Privacy
+            Policy</a><br>
+          <a href="" class="btn btn-link text-decoration-none text-dark">Terms &
+            Condition</a><br>
+
+          <a href="" class="btn btn-link text-decoration-none text-dark">FAQ
+            & Help</a><br>
+
+
+
+        </div>
+
+
+
+
+
+
+        <br><br><br>
+
+
+        <!-- social -->
+        <div class="container text-center  pt-2 p-5 ">
+          <a href="" class="btn btn-social"><i class="fa-brands fa-twitter"></i></a>
+
+          <a href="" class="btn btn-social"><i class="fa-brands fa-facebook"></i></i></i></a>
+          <a href="" class="btn btn-social"><i class="fa-brands fa-instagram fa-lg"></i></i></a>
+
+
+
+        </div>
+
+
+        <!-- googleplay -->
+        <div class="container text-center  pt-2 p-5 ">
+
+          <a href="" class="btn">
+
+            <img src="./images/gplay.PNG" alt="logo" height="60px" width="150px"></a>
+
+          <a href="" class="btn">
+
+            <img src="./images/appstr.PNG" alt="logo" height="60px" width="150px"></a><br><br>
+          <img src="./images/logo.PNG" alt="logo" height="40px" width="130px">
+
+        </div>
+
+
+
+        <!-- copyright -->
+        <div class="container text-center">
+          <div class="copyright">
+            <div class="row">
+
+              <p>
+                Urbanic London, 119 Marylebone Road, London, United Kingdom &copy; &nbsp; URBANIC (LONDON) LIMITED. All
+                Right
+                Reserved
+
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- payment methods -->
+
+
+        <div class="container text-center  pt-2 p-1  ">
+
+
+
+          <img src="./images/mastercard.PNG" alt="logo" height="40px" width="60px"></a>
+
+
+
+          <img src="./images/visa.PNG" alt="logo" height="40px" width="60px" style="margin-left: 10px;">
+          <img src="./images/amexp.PNG" alt="logo" height="40px" width="60px" style="margin-left: 10px;">
+          <img src="./images/bhim.PNG" alt="logo" height="40px" width="60px" style="margin-left: 10px;">
+          <img src="./images/rupay.PNG" alt="logo" height="40px" width="60px" style="margin-left: 10px;">
+          <img src="./images/pay1.PNG" alt="logo" height="40px" width="60px" style="margin-left: 10px;">
+          <img src="./images/paytm.PNG" alt="logo" height="40px" width="60px" style="margin-left: 10px;">
+          <img src="./images/pay2.PNG" alt="logo" height="40px" width="60px" style="margin-left: 10px;">
+          <img src="./images/pay3.PNG" alt="logo" height="40px" width="60px" style="margin-left: 10px;">
+
+
+
+        </div>
+</body>
+
+</html>
